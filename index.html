@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trisha Ladies Tailor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins', sans-serif;
+background:#fff5f8;
+}
+
+/* HEADER */
+header{
+background: linear-gradient(135deg,#c2185b,#ff80ab);
+color:white;
+text-align:center;
+padding:60px 20px;
+animation: fadeDown 1s ease;
+}
+
+header h1{
+font-size:52px;
+font-family:'Playfair Display', serif;
+letter-spacing:2px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+/* SECTION TITLE */
+.title{
+text-align:center;
+font-size:40px;
+margin:50px 0 30px;
+color:#c2185b;
+font-family:'Playfair Display', serif;
+}
+
+/* GRID */
+.grid{
+width:90%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+padding-bottom:60px;
+}
+
+/* CARD */
+.card{
+position:relative;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+cursor:pointer;
+transition:0.4s;
+}
+
+.card img{
+width:100%;
+height:340px;
+object-fit:cover;
+transition:0.6s ease;
+}
+
+/* OVERLAY */
+.overlay{
+position:absolute;
+bottom:0;
+width:100%;
+height:100%;
+background:linear-gradient(to top,rgba(194,24,91,0.85),transparent);
+display:flex;
+align-items:flex-end;
+justify-content:center;
+padding:20px;
+color:white;
+font-size:22px;
+font-weight:600;
+text-align:center;
+opacity:0;
+transition:0.4s;
+}
+
+/* HOVER EFFECT */
+.card:hover img{
+transform:scale(1.12);
+}
+
+.card:hover .overlay{
+opacity:1;
+}
+
+/* CONTACT */
+.contact{
+background:#c2185b;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+.contact h2{
+font-size:34px;
+margin-bottom:15px;
+font-family:'Playfair Display', serif;
+}
+
+/* ANIMATION */
+@keyframes fadeDown{
+from{opacity:0; transform:translateY(-40px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Trisha Ladies Tailor</h1>
+<p>All Types of Ladies Wear Stitching</p>
+<p>📍 Link Road, Kedgaon, Ahilyanagar | 📞 8983895168</p>
+</header>
+
+<h2 class="title">Our Tailoring Services</h2>
+
+<div class="grid">
+
+<!-- BLOUSE -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\blauj.jpg" alt="Blouse Stitching">
+<div class="overlay"> Blouse </div>
+</div>
+
+<!-- SALWAR SUIT -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\salwarsuit.jpg" alt="Salwar Suit">
+<div class="overlay">Salwar Suit </div>
+</div>
+
+<!-- LEHENGA CHOLI -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\lehengacjoil.webp" alt="Lehenga Choli">
+<div class="overlay">Lehenga Choli </div>
+</div>
+
+<!-- READY TO WEAR SAREE -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\readytowaresaree.webp" alt="Ready to Wear Saree">
+<div class="overlay">Ready to Wear Saree</div>
+</div>
+
+<!-- STRAIGHT PANT WITH KURTI -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\straightpantkurti.jpg" alt="Kurti">
+<div class="overlay">Straight Pant with Kurti</div>
+</div>
+
+<!-- SHORT KURTI -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\shortkurti.webp" alt="Short Kurti">
+<div class="overlay">Short Kurti</div>
+</div>
+
+<!-- long KURTI -->
+<div class="card">
+    <img src="D:\Projects\trisha-ladies-tailer-add\images\longkurti.jpg" alt="Short Kurti">
+    <div class="overlay">long Kurti</div>
+</div>
+
+<!-- onepiece -->
+<div class="card">
+    <img src="D:\Projects\trisha-ladies-tailer-add\images\onepiece.jpg" alt="Half Saree">
+    <div class="overlay">one piece</div>
+</div>
+
+<!-- FROCKS -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\shortfrok.jpg" alt="Frocks">
+<div class="overlay">Frocks</div>
+</div>
+
+<!-- PETTICOAT -->
+<div class="card">
+<img src="D:\Projects\trisha-ladies-tailer-add\images\petticoat.jpg" alt="Half Saree">
+<div class="overlay">Petticoat </div>
+</div>
+
+<!-- HALF SAREE -->
+<div class="card">
+    <img src="D:\Projects\trisha-ladies-tailer-add\images\halfsaree.webp" alt="Half Saree">
+    <div class="overlay">Half Saree</div>
+</div>
+
+<!-- nauvari -->
+<div class="card">
+    <img src="D:\Projects\trisha-ladies-tailer-add\images\nauvari.webp" alt="Short Kurti">
+    <div class="overlay">nauvari</div>
+</div>
+
+</div>
+
+<section class="contact">
+<h2>Contact Trisha Ladies Tailor</h2>
+<p>📍 Location: Link Road, Kedgaon, Ahilyanagar</p>
+<p>📞 Call / WhatsApp: 8983895168</p>
+<p>Specialist in All Ladies Wear</p>
+</section>
+
+</body>
+</html>
